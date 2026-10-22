@@ -1,0 +1,45 @@
+==117020== Memcheck, a memory error detector
+==117020== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==117020== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==117020== Command: Resultados/Daniel/eleicao/prog Resultados/Daniel/eleicao/Casos/8
+==117020== Parent PID: 117019
+==117020== 
+==117020== Use of uninitialised value of size 8
+==117020==    at 0x1099DC: LeEleitor (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==    by 0x109725: RealizaEleicao (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==    by 0x109A7E: main (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020== 
+==117020== Invalid write of size 4
+==117020==    at 0x1099DC: LeEleitor (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==    by 0x109725: RealizaEleicao (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==    by 0x109A7E: main (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==117020== 
+==117020== 
+==117020== Process terminating with default action of signal 11 (SIGSEGV)
+==117020==  Access not within mapped region at address 0x0
+==117020==    at 0x1099DC: LeEleitor (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==    by 0x109725: RealizaEleicao (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==    by 0x109A7E: main (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==117020==  If you believe this happened as a result of a stack
+==117020==  overflow in your program's main thread (unlikely but
+==117020==  possible), you can try to increase the size of the
+==117020==  main thread stack using the --main-stacksize= flag.
+==117020==  The main thread stack size used in this run was 8388608.
+==117020== 
+==117020== HEAP SUMMARY:
+==117020==     in use at exit: 4,208 bytes in 5 blocks
+==117020==   total heap usage: 6 allocs, 1 frees, 4,216 bytes allocated
+==117020== 
+==117020== LEAK SUMMARY:
+==117020==    definitely lost: 0 bytes in 0 blocks
+==117020==    indirectly lost: 0 bytes in 0 blocks
+==117020==      possibly lost: 0 bytes in 0 blocks
+==117020==    still reachable: 4,208 bytes in 5 blocks
+==117020==         suppressed: 0 bytes in 0 blocks
+==117020== Reachable blocks (those to which a pointer was found) are not shown.
+==117020== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==117020== 
+==117020== Use --track-origins=yes to see where uninitialised values come from
+==117020== For lists of detected and suppressed errors, rerun with: -s
+==117020== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

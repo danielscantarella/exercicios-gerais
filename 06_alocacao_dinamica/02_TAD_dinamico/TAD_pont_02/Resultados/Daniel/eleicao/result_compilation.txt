@@ -1,0 +1,32 @@
+eleicao.c: In function ‘ApagaEleicao’:
+eleicao.c:36:25: warning: passing argument 1 of ‘ApagaEleitor’ from incompatible pointer type [-Wincompatible-pointer-types]
+   36 |     ApagaEleitor(eleicao->eleitores);
+      |                  ~~~~~~~^~~~~~~~~~~
+      |                         |
+      |                         tEleitor **
+In file included from eleicao.h:5,
+                 from eleicao.c:3:
+eleitor.h:21:29: note: expected ‘tEleitor *’ but argument is of type ‘tEleitor **’
+   21 | void ApagaEleitor(tEleitor* eleitor);
+      |                   ~~~~~~~~~~^~~~~~~
+eleicao.c:41:27: warning: passing argument 1 of ‘ApagaCandidato’ from incompatible pointer type [-Wincompatible-pointer-types]
+   41 |     ApagaCandidato(eleicao->governadores);
+      |                    ~~~~~~~^~~~~~~~~~~~~~
+      |                           |
+      |                           tCandidato **
+In file included from eleicao.h:4:
+candidato.h:24:33: note: expected ‘tCandidato *’ but argument is of type ‘tCandidato **’
+   24 | void ApagaCandidato(tCandidato* candidato);
+      |                     ~~~~~~~~~~~~^~~~~~~~~
+eleicao.c:46:27: warning: passing argument 1 of ‘ApagaCandidato’ from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |     ApagaCandidato(eleicao->presidentes);
+      |                    ~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           tCandidato **
+candidato.h:24:33: note: expected ‘tCandidato *’ but argument is of type ‘tCandidato **’
+   24 | void ApagaCandidato(tCandidato* candidato);
+      |                     ~~~~~~~~~~~~^~~~~~~~~
+eleicao.c: In function ‘InicializaEleicao’:
+eleicao.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^

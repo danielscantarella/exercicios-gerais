@@ -1,0 +1,45 @@
+==116301== Memcheck, a memory error detector
+==116301== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==116301== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==116301== Command: Resultados/Daniel/eleicao/prog Resultados/Daniel/eleicao/Casos/5
+==116301== Parent PID: 116300
+==116301== 
+==116301== Use of uninitialised value of size 8
+==116301==    at 0x1099DC: LeEleitor (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==    by 0x109725: RealizaEleicao (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==    by 0x109A7E: main (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301== 
+==116301== Invalid write of size 4
+==116301==    at 0x1099DC: LeEleitor (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==    by 0x109725: RealizaEleicao (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==    by 0x109A7E: main (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==116301== 
+==116301== 
+==116301== Process terminating with default action of signal 11 (SIGSEGV)
+==116301==  Access not within mapped region at address 0x0
+==116301==    at 0x1099DC: LeEleitor (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==    by 0x109725: RealizaEleicao (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==    by 0x109A7E: main (in /home/danielcantarella/prog2/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Daniel/eleicao/prog)
+==116301==  If you believe this happened as a result of a stack
+==116301==  overflow in your program's main thread (unlikely but
+==116301==  possible), you can try to increase the size of the
+==116301==  main thread stack using the --main-stacksize= flag.
+==116301==  The main thread stack size used in this run was 8388608.
+==116301== 
+==116301== HEAP SUMMARY:
+==116301==     in use at exit: 4,224 bytes in 5 blocks
+==116301==   total heap usage: 6 allocs, 1 frees, 4,232 bytes allocated
+==116301== 
+==116301== LEAK SUMMARY:
+==116301==    definitely lost: 0 bytes in 0 blocks
+==116301==    indirectly lost: 0 bytes in 0 blocks
+==116301==      possibly lost: 0 bytes in 0 blocks
+==116301==    still reachable: 4,224 bytes in 5 blocks
+==116301==         suppressed: 0 bytes in 0 blocks
+==116301== Reachable blocks (those to which a pointer was found) are not shown.
+==116301== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==116301== 
+==116301== Use --track-origins=yes to see where uninitialised values come from
+==116301== For lists of detected and suppressed errors, rerun with: -s
+==116301== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

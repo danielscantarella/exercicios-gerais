@@ -1,4 +1,4 @@
-#include <stdint.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "cidade.h"
 #include "defesa.h"
@@ -12,14 +12,11 @@
  */
 struct cidade{
     char *nome;
-    int qtdMissil;
-    int qtdDefesa;
-    int x;
-    int y;
-    tMissil **listaMisseis;
-    tDefesa **listaDefesas;
-    float danoTotal;
-    float danoRecebido;
+    int qtdMissil, qtdDefesa;
+    float x, y;
+    tMissil *listaMisseis;
+    tDefesa *listaDefesas;
+    float danoTotal, danoRecebido;
 };
 
 /**
@@ -30,12 +27,14 @@ struct cidade{
 tCidade CriaCidade(){
 
     tCidade c = (tCidade) malloc (sizeof(struct cidade));
+    c->nome = (char *) calloc (MAX_NOME,  sizeof(char));
     scanf("%s %f %f", c->nome, &c->x, &c->y);
     c->qtdDefesa = 0;
     c->qtdMissil = 0;
-    c->listaDefesas = (tDefesa*) malloc (QTD_DEF* sizeof(tDefesa*));
-    c->listaMisseis = (tMissil*) malloc (QTD_MIS * sizeof(tMissil*));
-    c->nome = (char *) malloc (MAX_NOME * sizeof(char));
+    c->danoRecebido = 0;
+    c->danoTotal = 0;
+    c->listaDefesas = (tDefesa*) calloc (QTD_DEF, sizeof(tDefesa*));
+    c->listaMisseis = (tMissil*) calloc (QTD_MIS, sizeof(tMissil*));
     return c;
 }
 
@@ -71,7 +70,7 @@ tCidade LeEntrada(tCidade cidade){
         else if (op == MISSIL){
 
             if (cidade->qtdMissil >= QTD_MIS){
-                rintf("MAX DE MISSEIS CADASTRADAS!\n");
+                printf("MAX DE MISSEIS CADASTRADAS!\n");
                 return cidade;
             }
 
@@ -79,6 +78,8 @@ tCidade LeEntrada(tCidade cidade){
             cidade->qtdMissil++;
         }
     }
+
+    return cidade;
 }
 
 /**
@@ -95,13 +96,13 @@ tCidade LeEntrada(tCidade cidade){
  */
 void LiberaCidade(tCidade cidade){
 
-    for (int i=0; i<QTD_DEF; i++){
-        free(cidade->listaDefesas[i]);
+    for (int i=0; i<cidade->qtdDefesa; i++){
+    LiberaDefesa(cidade->listaDefesas[i]);
     }
     free(cidade->listaDefesas);
 
-    for (int i=0; i<QTD_MIS; i++){
-        free(cidade->listaMisseis[i]);
+    for (int i=0; i<cidade->qtdMissil; i++){
+        LiberaMissil(cidade->listaMisseis[i]);
     }
     free(cidade->listaMisseis);
 
@@ -118,7 +119,21 @@ void LiberaCidade(tCidade cidade){
 void ProcessaAtaques(tCidade cidade){
 
     for (int i=0; i<cidade->qtdMissil; i++){
-        cidade->danoTotal += GetMissilPoder(cidade->listaMisseis[i]);
+        float xM = GetMissilX(cidade->listaMisseis[i]);
+        float yM = GetMissilY(cidade->listaMisseis[i]);
+
+        if ((xM > 0 && xM < cidade->x) && (yM > 0 && yM < cidade->y)){
+
+            cidade->danoTotal += GetMissilPoder(cidade->listaMisseis[i]);
+            
+            for (int j=0; j<cidade->qtdDefesa; j++){
+                if (VerificaSeDentroArea(cidade->listaDefesas[j], xM, yM) && PodeDefender(cidade->listaDefesas[j])){
+                    ReduzPoder(cidade->listaMisseis[i], GetDefesaPoder(cidade->listaDefesas[j]));
+                    UsaDefesa(cidade->listaDefesas[j]);
+                }   
+            }
+            cidade->danoRecebido += GetMissilPoder(cidade->listaMisseis[i]);
+        }
     }
 }
 
@@ -127,4 +142,14 @@ void ProcessaAtaques(tCidade cidade){
  * 
  * @param cidade Ponteiro para a cidade que terá os dados impressos.
  */
-void ImprimeDados(tCidade cidade);
+void ImprimeDados(tCidade cidade){
+
+    for (int i=0; i<cidade->qtdDefesa; i++){
+        ImprimeDefesa(cidade->listaDefesas[i]);
+    }
+    for (int i=0; i<cidade->qtdMissil; i++){
+        ImprimeMissil(cidade->listaMisseis[i]);
+    }
+    float efetividade = ((cidade->danoTotal - cidade->danoRecebido) / cidade->danoTotal) * 100;
+    printf("Efetividade: %.2f%%\n",efetividade);
+}
