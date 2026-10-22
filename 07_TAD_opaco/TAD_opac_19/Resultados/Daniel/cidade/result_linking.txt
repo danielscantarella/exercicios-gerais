@@ -1,0 +1,7 @@
+/usr/bin/ld: Resultados/Daniel/cidade/main.o: in function `main':
+main.c:(.text+0x12): undefined reference to `CriaCidade'
+/usr/bin/ld: main.c:(.text+0x22): undefined reference to `LeEntrada'
+/usr/bin/ld: main.c:(.text+0x32): undefined reference to `ProcessaAtaques'
+/usr/bin/ld: main.c:(.text+0x3e): undefined reference to `ImprimeDados'
+/usr/bin/ld: main.c:(.text+0x4a): undefined reference to `LiberaCidade'
+collect2: error: ld returned 1 exit status

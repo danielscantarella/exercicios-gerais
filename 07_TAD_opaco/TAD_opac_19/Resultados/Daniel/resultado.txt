@@ -1,0 +1,25 @@
+Arquivos Esperados Corretos: 4 de 7
+Pastas Compiladas Corretamente: 3 de 5 
+Pastas Linkadas Corretamente: 2 de 5
+Teste main
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Daniel para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Daniel para o teste completo: 0
+Teste missil
+  - Resultados corretos: 5 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de Daniel para o teste missil: 2.00
+Teste defesa
+  - Resultados corretos: 5 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de Daniel para o teste defesa: 2.00
+Teste cidade
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Daniel para o teste cidade: 0
+Nota de Daniel: 0+(2.00)+(2.00)+(0)+(0)+(0)
+Nota de Daniel: 4.00
