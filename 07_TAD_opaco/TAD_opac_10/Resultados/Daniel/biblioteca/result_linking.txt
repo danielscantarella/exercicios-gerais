@@ -1,0 +1,7 @@
+/usr/bin/ld: Resultados/Daniel/biblioteca/main.o: in function `main':
+main.c:(.text+0x75): undefined reference to `InicializarBiblioteca'
+/usr/bin/ld: main.c:(.text+0x106): undefined reference to `AdicionarLivroNaBiblioteca'
+/usr/bin/ld: main.c:(.text+0x141): undefined reference to `RemoverLivroDaBiblioteca'
+/usr/bin/ld: main.c:(.text+0x15a): undefined reference to `ListarLivrosDaBiblioteca'
+/usr/bin/ld: main.c:(.text+0x192): undefined reference to `ApagaBiblioteca'
+collect2: error: ld returned 1 exit status

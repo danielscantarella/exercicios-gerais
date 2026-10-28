@@ -1,0 +1,15 @@
+==80107== Memcheck, a memory error detector
+==80107== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==80107== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==80107== Command: Resultados/Daniel/livro/prog Resultados/Daniel/livro/Casos/6
+==80107== Parent PID: 80106
+==80107== 
+==80107== 
+==80107== HEAP SUMMARY:
+==80107==     in use at exit: 0 bytes in 0 blocks
+==80107==   total heap usage: 39 allocs, 39 frees, 8,456 bytes allocated
+==80107== 
+==80107== All heap blocks were freed -- no leaks are possible
+==80107== 
+==80107== For lists of detected and suppressed errors, rerun with: -s
+==80107== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

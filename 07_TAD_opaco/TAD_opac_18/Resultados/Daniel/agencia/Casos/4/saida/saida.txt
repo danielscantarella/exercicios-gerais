@@ -1,0 +1,20 @@
+--- Agencia Bancaria ---
+Digite um id valido para a conta a ser cadastrada!
+Digite um id valido para a conta a ser cadastrada!
+Digite um id valido para a conta a ser cadastrada!
+Digite um id valido para a conta a ser cadastrada!
+Este id ja esta cadastrado na agencia. Digite um id diferente!
+A lista de operações suspeitas:
+Operação na conta 25 com valor 23507.00
+Operação na conta 20 com valor -20708.00
+Operação na conta 5 com valor -22195.00
+Operação na conta 10 com valor -23431.00
+Operação na conta 25 com valor -24371.00
+Operação na conta 5 com valor -23651.00
+Operação na conta 15 com valor 21092.00
+Operação na conta 15 com valor 21254.00
+Operação na conta 10 com valor -20111.00
+Os dois correntistas com maior saldo são:
+Id: 15, Saldo: 85460.00
+Id: 20, Saldo: 56845.00
+O saldo total da agencia eh: 94763.00
