@@ -1,0 +1,2 @@
+LESTE 0 0 0
+OESTE 0 0 0

@@ -1,0 +1,399 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Daniel
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Daniel:
+ - Diretório Resultados/Daniel criado com sucesso!
+ - Diretório Resultados/Daniel/main criado com sucesso!
+ - Diretório Resultados/Daniel/completo criado com sucesso!
+ - Diretório Resultados/Daniel/nba criado com sucesso!
+ - Diretório Resultados/Daniel/franquia criado com sucesso!
+ - Diretório Resultados/Daniel/partida criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Daniel/franquia.c' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/franquia.h' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/nba.c' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/nba.h' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/partida.c' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/partida.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/main
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Daniel/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Daniel/main
+ - Removendo o main.o do professor da pasta Resultados/Daniel/main
+ - Copiando o Respostas/Daniel/main.c do aluno para a pasta Resultados/Daniel/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/franquia.c do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/franquia.h do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/main.c do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/nba.c do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/nba.h do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/partida.c do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/partida.h do aluno para a pasta Resultados/Daniel/completo
+ - Pasta nba:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/nba
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Daniel/nba
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Daniel/nba
+ - Removendo o nba.o do professor da pasta Resultados/Daniel/nba
+ - Copiando o Respostas/Daniel/nba.c do aluno para a pasta Resultados/Daniel/nba
+ - Pasta franquia:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/franquia
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Daniel/franquia
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Daniel/franquia
+ - Removendo o franquia.o do professor da pasta Resultados/Daniel/franquia
+ - Copiando o Respostas/Daniel/franquia.c do aluno para a pasta Resultados/Daniel/franquia
+ - Pasta partida:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/partida
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Daniel/partida
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Daniel/partida
+ - Removendo o partida.o do professor da pasta Resultados/Daniel/partida
+ - Copiando o Respostas/Daniel/partida.c do aluno para a pasta Resultados/Daniel/partida
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Daniel/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Daniel/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta nba ok!
+ - Arquivo de output gerado: Resultados/Daniel/nba/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta franquia ok!
+ - Arquivo de output gerado: Resultados/Daniel/franquia/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta partida ok!
+ - Arquivo de output gerado: Resultados/Daniel/partida/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Daniel/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Daniel/completo/result_linking.txt
+ - Pasta nba:
+ - Gerando o binário prog linkando com o(s) arquivo(s) nba/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Daniel/nba/result_linking.txt
+ - Pasta franquia:
+ - Gerando o binário prog linkando com o(s) arquivo(s) franquia/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Daniel/franquia/result_linking.txt
+ - Pasta partida:
+ - Gerando o binário prog linkando com o(s) arquivo(s) partida/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Daniel/partida/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 10:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 67, frees: 67, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 39, frees: 39, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 135, frees: 135, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 39, frees: 39, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 8:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 9:
+ - Arquivo de output gerado: Resultados/Daniel/main/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 43, frees: 43, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 10:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 8:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 25, frees: 25, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 9:
+ - Arquivo de output gerado: Resultados/Daniel/completo/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 23, frees: 23, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta nba / Caso 1:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 10:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 67, frees: 67, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 2:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 3:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 4:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 39, frees: 39, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 5:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 135, frees: 135, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 6:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 39, frees: 39, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 7:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 8:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 9:
+ - Arquivo de output gerado: Resultados/Daniel/nba/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 43, frees: 43, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta nba (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta franquia / Caso 1:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 27, frees: 27, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 10:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 59, frees: 59, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 2:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 3:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 4:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 27, frees: 27, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 5:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 101, frees: 101, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 6:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 7:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 8:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 39, frees: 39, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 9:
+ - Arquivo de output gerado: Resultados/Daniel/franquia/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta franquia (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta partida / Caso 1:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 27, frees: 27, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 10:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 43, frees: 43, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 2:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 3:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 4:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 33, frees: 33, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 5:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 103, frees: 103, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 6:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 25, frees: 25, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 7:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 8:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 33, frees: 33, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 9:
+ - Arquivo de output gerado: Resultados/Daniel/partida/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 31, frees: 31, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta partida (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Daniel
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 5 de 5 
+ - Pastas Linkadas Corretamente: 5 de 5
+ - Teste main
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Daniel para o teste main: 2.00
+ - Teste completo
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Daniel para o teste completo: 2.00
+ - Teste nba
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Daniel para o teste nba: 2.00
+ - Teste franquia
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Daniel para o teste franquia: 2.00
+ - Teste partida
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Daniel para o teste partida: 2.00
+ - Nota de Daniel: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
+ - Nota de Daniel: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
