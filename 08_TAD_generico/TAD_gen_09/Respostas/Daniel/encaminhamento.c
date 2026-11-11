@@ -11,7 +11,7 @@ struct _Encaminhamento{
     char paciente[101];
     char especialidade[51];
     char motivo[201];
-}
+};
 
 /*
     Função que cria uma Encaminhamento e retorna o seu endereço de memória
@@ -58,7 +58,7 @@ Encaminhamento *leEncaminhamento(){
 float calculaPrecoImpressaoEncaminhamento(void *dado, float precoCaractere){
     Encaminhamento *e = (Encaminhamento *)dado;
 
-    int soma = strlen(e->medico) + strlen(e->paciente) + strlen(e->motivo + strlen(e->especialidade));
+    int soma = strlen(e->medico) + strlen(e->paciente) + strlen(e->motivo) + strlen(e->especialidade);
     return soma * precoCaractere;
 }
 
@@ -74,7 +74,7 @@ void imprimeEncaminhamento(void *dado){
     printf("ESPECIALIDADE: %s\n", e->especialidade) ;
     printf("MOTIVO: %s\n", e->motivo);
     printf("MEDICO: %s\n", e->medico);
-    printf("- - - - - - - -\n");
+    printf("- - - - - - - - - - - -\n");
 }
 
 /*
